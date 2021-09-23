@@ -1,0 +1,70 @@
+.page-header{
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.page-header h1{
+  color:rgb(66, 65, 70);
+  font-weight:600;
+}
+
+body {
+  padding: 1.5rem;
+}
+
+.container {
+  background-color: rgb(240, 240, 240);
+  max-width: 480px;
+  margin: 2rem auto 0;
+  padding: 3rem 1rem;
+} 
+
+.container h2 { 
+  font-size: 3rem;
+  text-align: center;
+}
+
+div {
+  margin: 2rem 0;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  font-size: 1.123rem;
+}
+
+input {
+  font-size: 1.25rem;
+  box-shadow: 0 0 3px 1px rgba(0,0,0, 0.25);
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+input:focus {
+  background-color: rgb(184, 214, 197);
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit button {
+  width: 45%;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+}
+
+.submit button:hover {
+  cursor: pointer;
+  background-color: rgb(216, 47, 18);
+}
